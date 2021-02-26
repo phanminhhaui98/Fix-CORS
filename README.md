@@ -1,6 +1,4 @@
-# Fix-CORS
-Asp.net Frameword mvc 5
-
+# Fix-CORS start local project Asp.net Frameword mvc 5
 step 1: File Global.asax.cs add methor Application_BeginRequest()
 
 	  protected void Application_BeginRequest()
