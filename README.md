@@ -3,14 +3,14 @@ Asp.net Frameword mvc 5
 
 step 1: File Global.asax.cs add methor Application_BeginRequest()
 
-  protected void Application_BeginRequest()
-        {
-            if (Request.HttpMethod == "OPTIONS")
-            {
-                Response.StatusCode = (int)HttpStatusCode.OK;
-                Response.End();
-            }
-  }
+	  protected void Application_BeginRequest()
+		{
+		    if (Request.HttpMethod == "OPTIONS")
+		    {
+			Response.StatusCode = (int)HttpStatusCode.OK;
+			Response.End();
+		    }
+	  }
 
 Step 2: add to file web.config
 
